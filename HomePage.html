@@ -56,32 +56,8 @@
 			</div>
 
 			<div class="footer">
-				<p><br><br><a>About</a> | <a>Contact</a> | Photos featured are copywrite Anthony Hauger and Hatman Productions <br><br></p>
+				<p><br><br><a href="AboutPage.html">About</a> | Photos featured are copywrite Anthony Hauger and Hatman Productions <br><br></p>
 			</div>
 		</div>
-
-	<script>
-		var slideIndex=0;
-		carousel();
-
-		function carousel(){
-			var i;
-			var x = document.getElementsByClassName("slideshow_images);
-			for (i=0; i<x.length; i++) {
-				x[i].style.display = "none";
-			}
-			slideIndex++;
-			if (slideIndex > x.length) {slideIndex = 1}
-			x[slideIndex-1].style.display = "block";
-			setTimeout(carousel, 4000);
-	</script>
 	</body>
 </html>
-
-<!-- $('.header img:gt(0)').hide();
-
-        setInterval(function() {
-                $('.header :first-child').fadeOut()
-                        .next('img').fadeIn()
-                        .end().appendTo('.header');
-        }, 3000); -->
