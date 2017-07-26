@@ -1,0 +1,89 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+.navigation {
+        width: 100%;
+        position: fixed;
+        background: RGBa(0, 0, 0, 0.9);
+        text-align: center;
+        z-index: 10000;
+}
+
+.navigation li {
+        display: inline-block;
+        margin: 20px;
+}
+
+a {
+        font-family: 'Quicksand', sans-serif;
+}
+
+a:link {
+        text-decoration: none;
+        color: #FF2C00;
+}
+
+a:hover {
+        text-decoration: underline;
+        color: #E81F0C;
+}
+
+a:visited {
+        text-decoration: none;
+        color: #E8440C;
+}
+
+#logo {
+        box-sizing: border-box;
+        color: #E81F0C;
+        font-family: 'Lobster', cursive;
+	font-size: 20px;
+}
+
+.storage_box {
+	margin: 69px 0px 0px 0px;
+	background: url("BBC.JPG") no-repeat center center;
+	background-size: cover;
+	height: 1079px;
+	width: 100%;
+	display: flex;
+	clear: right;
+}
+
+.about_box {
+	margin: 70px 0px 0px 70px;
+	background-color: rgba(0,0,0,0.9);
+	background-attachment: fixed;
+	text-align: center;
+	height: 40%;
+	width: 50%;
+	border-radius: 7px;
+}
+
+#about_header {
+	margin: 0 auto;
+        padding: 7px;
+        width: 400px;
+        height: 40px;
+        border-bottom: 3px solid #E81F0C;
+        border-radius: 3px;
+        text-align: center;
+        color: #E81F0C;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 32px;
+}
+
+.section_headers {
+	color: #E8440C;
+}
+
+.section_contents {
+	color: #E81f0C;
+}
+
+.footer {
+	color: #E81F0C44;
+}
